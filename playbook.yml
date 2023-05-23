@@ -1,0 +1,10 @@
+- name: windows config
+  hosts: win 
+  tasks: 
+   - name: create an user
+     win_user:
+       name: test         
+       password: test123
+       state: present
+       groups:
+        - Users

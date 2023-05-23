@@ -1,0 +1,5 @@
+# run this commands on windows power shell and create an admin user 
+run - winrm quickconfig
+run - <script on main page inder winrm section>
+# install pywinrm python module
+ pip install pywinrm
